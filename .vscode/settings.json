@@ -1,0 +1,28 @@
+{
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.ignoreFiles": [
+        "**/writable/**",
+        "*.log",
+        "**/storage/framework/views/**",
+        "**/storage/logs/**",
+        "**/storage/framework/cache/**",
+        "**/storage/framework/sessions/**",
+        "**/storage/framework/testing/**",
+        "**/bootstrap/cache/**",
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "shoe_shop",
+            "database": "shoe_shop",
+            "username": "root",
+            "password": ""
+        }
+    ]
+}
